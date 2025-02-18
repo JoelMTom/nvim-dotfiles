@@ -36,4 +36,3 @@ keymap("v", "<", "<gv", opts)
 
 keymap("n", "n", "nzzzv", opts)
 keymap("n", "N", "Nzzzv", opts)
-
