@@ -21,3 +21,13 @@ opts.colorcolumn = "130"
 -- opts.signcolumn = "yes"
 opts.cmdheight = 1
 opts.scrolloff = 10
+
+--Behaviour
+opts.hidden = true
+opts.errorbells = false
+opts.swapfile = false
+opts.backup = false
+opts.undofile = true
+opts.backspace = "indent,eol,start"
+opts.clipboard:append("unnamedplus")
+opts.modifiable = true

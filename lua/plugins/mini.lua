@@ -1,8 +1,23 @@
 return {
-  { 'echasnovski/mini.icons',   version = false, opts = {} },
-  { 'echasnovski/mini.pairs',   version = false, opts = {} },
-  { 'echasnovski/mini.ai',      version = false, opts = {} },
-  { 'echasnovski/mini.comment', version = false, opts = {} },
+  { 'echasnovski/mini.icons', version = false, opts = {} },
+  {
+    'echasnovski/mini.pairs',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {}
+  },
+  {
+    'echasnovski/mini.ai',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {}
+  },
+  {
+    'echasnovski/mini.comment',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {}
+  },
   {
     'echasnovski/mini.files',
     lazy = false,
@@ -18,8 +33,18 @@ return {
       },
     }
   },
-  { 'echasnovski/mini.jump2d',      version = false, opts = {} },
-  { 'echasnovski/mini.indentscope', version = false, opts = {} },
+  {
+    'echasnovski/mini.jump2d',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {}
+  },
+  {
+    'echasnovski/mini.indentscope',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {}
+  },
   {
     'echasnovski/mini.hipatterns',
     version = false,
@@ -39,5 +64,11 @@ return {
       })
     end
   },
-  { 'echasnovski/mini.surround', version = false, opts = {} },
+  {
+    'echasnovski/mini.surround',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {}
+  },
+  { 'echasnovski/mini.animate', version = false, opts = {}, },
 }

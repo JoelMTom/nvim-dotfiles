@@ -29,3 +29,7 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 -- visual editing
 keymap("v", ">", ">gv", opts)
 keymap("v", "<", "<gv", opts)
+
+keymap("n", "n", "nzzzv", opts)
+keymap("n", "N", "Nzzzv", opts)
+
