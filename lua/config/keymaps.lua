@@ -5,6 +5,10 @@ local opts = { noremap = true, silent = true }
 keymap("i", "jk", "<ESC>", opts)
 keymap("", "<space>", "<Nop>", opts)
 
+--navigation
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
 -- Pane navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
