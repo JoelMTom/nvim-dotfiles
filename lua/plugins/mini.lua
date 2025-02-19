@@ -1,5 +1,10 @@
 return {
-  { 'echasnovski/mini.icons', version = false, opts = {} },
+  {
+    'echasnovski/mini.icons',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {}
+  },
   {
     'echasnovski/mini.pairs',
     version = false,
@@ -20,7 +25,7 @@ return {
   },
   {
     'echasnovski/mini.files',
-    lazy = false,
+    event = { "BufReadPre", "BufNewFile" },
     version = false,
     opts = {},
     keys = {
@@ -48,6 +53,7 @@ return {
   {
     'echasnovski/mini.hipatterns',
     version = false,
+    event = { "BufReadPre", "BufNewFile" },
     config = function()
       local hipatterns = require('mini.hipatterns')
       hipatterns.setup({
@@ -70,5 +76,10 @@ return {
     event = { "BufReadPre", "BufNewFile" },
     opts = {}
   },
-  { 'echasnovski/mini.animate', version = false, opts = {}, },
+  {
+    'echasnovski/mini.animate',
+    version = false,
+    event = { "BufReadPre", "BufNewFile" },
+    opts = {},
+  },
 }

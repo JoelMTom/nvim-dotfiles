@@ -21,8 +21,8 @@ keymap("n", "<leader>sh", ":split<CR>", opts)
 -- keymap("n", "<leader>sm", ":MaximizerToggle<CR>", opts)
 
 -- visual movements
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", opts)
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", opts)
 
 -- Window resize
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
