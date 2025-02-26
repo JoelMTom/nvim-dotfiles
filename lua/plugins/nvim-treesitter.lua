@@ -15,6 +15,6 @@ return {
   opts = {
     highlight = { enable = true },
     indent = { enable = true },
-    ensure_installed = { "c", "cpp", "lua", "vim", "javascript", "html", "python" },
+    ensure_installed = { "c", "cpp", "lua", "vim", "javascript", "html", "python", "regex", "bash", },
   },
 }

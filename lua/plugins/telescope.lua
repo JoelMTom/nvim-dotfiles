@@ -49,6 +49,12 @@ return {
       end,
       desc = "Telescope git files",
     },
+    -- {
+    --   "<leader>fd",
+    --   function ()
+    --     require("telescope.builtin").fd()
+    --   end
+    -- }
   },
   config = function()
     require("telescope").load_extension("fzf")

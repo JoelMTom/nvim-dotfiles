@@ -6,8 +6,10 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("", "<space>", "<Nop>", opts)
 
 --navigation
-vim.keymap.set("n", "<C-d>", "<C-d>zz")
-vim.keymap.set("n", "<C-u>", "<C-u>zz")
+-- vim.keymap.set("n", "<C-d>", "<C-d>zz")
+-- vim.keymap.set("n", "<C-u>", "<C-u>zz")
+-- vim.keymap.set("n", "j", "jzz")
+-- vim.keymap.set("n", "k", "kzz")
 
 -- Pane navigation
 keymap("n", "<C-h>", "<C-w>h", opts)

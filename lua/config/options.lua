@@ -10,7 +10,7 @@ opts.wrap = false
 
 -- search
 opts.incsearch = true
-opts.ignorecase = true
+-- opts.ignorecase = true
 opts.smartcase = true
 opts.hlsearch = false
 
