@@ -10,6 +10,8 @@ return {
     -- "ibhagwan/fzf-lua",              -- optional
     -- "echasnovski/mini.pick",         -- optional
   },
-  opts = {},
+  opts = {
+    graph_style = "kitty",
+  },
 }
 
