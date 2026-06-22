@@ -31,3 +31,6 @@ opts.undofile = true
 opts.backspace = "indent,eol,start"
 opts.clipboard:append("unnamedplus")
 opts.modifiable = true
+
+--windows
+opts.winborder = "rounded"
