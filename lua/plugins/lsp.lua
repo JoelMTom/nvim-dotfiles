@@ -94,6 +94,7 @@ return {
             [vim.diagnostic.severity.INFO] = '»',
           },
         },
+        virtual_text = true,
       })
     end
   },
