@@ -1,5 +1,6 @@
 return {
   "folke/snacks.nvim",
+  priority = 1000,
   opts = {
     picker = {
       -- your picker configuration comes here
